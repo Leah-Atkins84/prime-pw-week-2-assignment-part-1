@@ -1,4 +1,5 @@
 // REQUIRED FEATURES:
+"use strict";
 console.log('js');
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName='Leah ';
