@@ -18,28 +18,29 @@ console.log(luckyNumber);
 // Refer back to the videos if you need help with this one.
 console.log('My name is ' + fullName + ' and I think ' + luckyNumber + ' is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous= 'false';
+let adventurous= false;
 console.log(adventurous);
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food='Italian';
 console.log('My favorite type of food is ' + food);
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-let pets= "0";
+let pets= 0;
+console.log(pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets= "2";
+let friendsPets= 2;
 console.log(friendsPets);
 // 11 - Add two pets to your `pets` variable
-pets='2';
+pets=2;
 console.log(pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-const allowedPets='2';
+const allowedPets= 2;
 console.log(allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-if(adventurous == 'true' ){
+if(adventurous === true ){
   console.log( "Adventures are great!" );
   }
-else if( adventurous=='false'){
+else if( adventurous=== false ){
   console.log( "How about we stay home?" );
   }
 
@@ -56,11 +57,11 @@ if( luckyNumber == '2' && adventurous == 'true' ){
 if( pets < allowedPets){
   console.log( "I can have more pets!" );
 }
-  if( pets && allowedPets ){
+  else if( pets === allowedPets ){
     console.log( "I have enough pets" );
   }
-     if( pets > allowedPets){
-       console.log( "Oh no, I have too many pets!" );
+     else( pets > allowedPets){
+       console.log("Oh no, I have too many pets!");
      }
 
 
