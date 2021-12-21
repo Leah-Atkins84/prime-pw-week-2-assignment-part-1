@@ -6,6 +6,7 @@ let firstName='Leah ';
 console.log(firstName);
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName='Atkins';
+console.log(lastName);
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 let fullName= firstName  +  lastName;
@@ -31,7 +32,7 @@ console.log(pets);
 let friendsPets= 2;
 console.log(friendsPets);
 // 11 - Add two pets to your `pets` variable
-pets=2;
+pets= pets + 2;
 console.log(pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets= 2;
@@ -61,7 +62,7 @@ if( pets < allowedPets){
   else if( pets === allowedPets ){
     console.log( "I have enough pets" );
   }
-     else( pets > allowedPets){
+     else{
        console.log("Oh no, I have too many pets!");
      }
 
